@@ -1,6 +1,6 @@
 #include <Windows.h>
 
-#pragma comment(lib, "ntdll.lib")
+#pragma comment(lib, "ntdll.lib")//add ntdll.lib
 
 EXTERN_C NTSTATUS NTAPI RtlAdjustPrivilege(ULONG, BOOLEAN,BOOLEAN, PBOOLEAN);
 
